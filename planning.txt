@@ -1,0 +1,18 @@
+WHAT DO YOU WANT TO TALK ABOUT???
+
+Tells a story. This can be personal or impersonal, funny, serious or neither. You can do whatever you like, but it should be something in the range of 3-10 paragraphs or sections. Here is an example, and here are some other ideas:
+
+1) I think I'm a serial hobbyist
+    1) singer
+    2) gamer
+    3) artist
+    4) gardener
+
+2) format 
+Uses each of the following structural HTML5 tags at least once:
+
+<p>
+<header>
+<footer>
+<main>
+<article>.
