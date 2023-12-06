@@ -1,47 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
    <head>
+      <link rel="stylesheet" type="text/css" href="styles.css">
+      <title>I Love Bluey</title>
    </head>
-   <body>
-      <style>
-         div {
-            background-color: lightblue;
-         }
-   </style>
       <!-- Write your HTML in this file! --> 
       <!-- This is an important comment -->
+      <body>
+         <div class="container">
+            <div class="infinite-scrolling"></div>
+          </div>
       <header>
-         <title>My Assignment</title>
-         <h1 style="border: 2px solid DodgerBlue;"><center><div>Three Reasons Why I Love Bluey</div></center></h1>
-         <section>
-            <!--ADD IMAGE-->
-            <p>Bluey is an Australian-based show about a blue-heeler dog family. It teaches children valuable life lessons and being able to express themselves. It is so popular that the show has an adult fanbase... including me.</p>
-            <p>Normally, I do not opt in to watching the same shows as my toddler. However, in the midst of the COVID-19 pandemic, my daughter discovered Bluey. After watching an episode with her, I was hooked. Here's why: </p>
-         </section>
+         <h1 id="mainHeading">Three Reasons Why I Love Bluey</h1>
+         <nav>
+            <ul>
+               <li><a href="#one">One</a></li>
+               <li><a href="#two">Two</a></li>
+               <li><a href="#three">Three</a></li>
+               <li><a href="https://www.bluey.tv/watch/">Watch Bluey Here!</a></li>
+            </ul>
+         </nav>
       </header>
-      <article>
-         <ol>
-            <h3><li>Quality Time</li></h3>
+      <section>
+         <h2>Backstory</h2>
+         <p id="testP" class="funParagraph">Bluey is an Australian-based show about a blue-heeler dog family. It teaches children valuable life lessons and being able to express themselves. It is so popular that the show has an adult fanbase... including me.</p>
+         <p>Normally, I wouldn't opt-in to watching the same shows as my toddler. However, in the midst of the COVID-19 pandemic, my daughter discovered Bluey. After watching an episode with her, I was hooked. Here's why:</p>
+   </section>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/8nv1m-aTCZI?si=6SfBvYJ3sTffuueD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+   <main>
+   <article>
+      <ol>
+         <a name="one"></a>
+         <h2>Quality Time</h2>
+         <!--ADD IMAGE-->
+         <img src="https://publish.purewow.net/wp-content/uploads/sites/2/2023/02/bluey-favorite-show-universal.jpg?resize=720%2C780" alt="Bluey Family Together" width="420" height="460">
+               <p>When you become a parent, you welcome a chaotic dynamic in your life. It becomes hard to balance everything. Sometimes it makes you wonder whether you're doing enough with your kids. When I watch Bluey with my daughter, I feel like we're bonding because it's something we both enjoy. I love that my daughter can feel inspired just by having a figure like Bluey to look up to!</p>
+            <a name="two"></a>
+            <h2>New POV on Life and Parenting</h2>
+            <img src="https://dejareviewer.files.wordpress.com/2023/02/years-later-as-teenagers-bluey-and-jean-luc-meet-again.jpg" alt="Bluey and Jean Luc" width="650" height="346">
             <!--ADD IMAGE-->
-            <img src="https://publish.purewow.net/wp-content/uploads/sites/2/2023/02/bluey-favorite-show-universal.jpg?resize=720%2C780" alt="Bluey Family Together" width="420" height="460">
-                  <p>When you become a parent, you welcome a chaotic dynamic in your life. It becomes hard to balance everything. Sometimes it makes you wonder whether you're doing enough with your kids. When I watch Bluey with my daughter, I feel like we're bonding because it's something we both enjoy. I love that my daughter can feel inspired just by having a figure like Bluey to look up to!</p>
-               
-               <h3><li>New POV of Life and Parenting</li> </h3>
-               <img src="https://dejareviewer.files.wordpress.com/2023/02/years-later-as-teenagers-bluey-and-jean-luc-meet-again.jpg" alt="Bluey and Jean Luc" width="650" height="346">
-               <!--ADD IMAGE-->
-                  <p>This show caters to adults by shedding light on some obstacles you could face in life. For example, one of my favorites come from a lesson where Bluey goes camping and meets a foreign friend, Jean Luc. They have so much fun being friends for short time even without sharing the same language. During their adventures, they planted a seed together in their campsite. When Jean Luc had to go back home, Bluey is left to wonder what happened to her new friend. Her mother tells her that sometimes you meet the most special people in your life and there's a time where they have to go. Even if they have to go, you should remember that when they were around, those times were good. In the end, older Bluey is seen reading under the now tree that grew from their seed and Jean Luc returns to greet Bluey. If you're crying... Don't worry. I did too.  </p>
-               
-               <h3><li>Makes me feel like I'm not alone</li></h3>
-               <!--ADD IMAGE-->
-               <img src="https://helios-i.mashable.com/imagery/articles/07krRz0vCJ2IDZGOkr1ojZl/hero-image.fill.size_1248x702.v1669133399.jpg" alt="Bluey and Mom" width="650" height="346">
-                  <p>Since Bluey caters to all viewers, it makes me feel like I'm not alone. Everyone can relate to a character. For me, it is their mother, Chilli that I can relate to. She constantly battles with her mental health but always tries to self-advocate for the best. She embodies that mother figure that can't always be perfect but is always there for her family.</p>   
-                </ol>  
-         
-            
-            <center><a href="https://www.bluey.tv/watch/">Watch Bluey Here!</a></center>
-         </article>
+               <p>This show caters to adults by shedding light on some obstacles you could face in life. For example, one of my favorites come from a lesson where Bluey goes camping and meets a foreign friend, Jean Luc. They have so much fun being friends for short time even without sharing the same language. During their adventures, they planted a seed together in their campsite. When Jean Luc had to go back home, Bluey is left to wonder what happened to her new friend. Her mother tells her that sometimes you meet the most special people in your life and there's a time where they have to go. Even if they have to go, you should remember that when they were around, those times were good. In the end, older Bluey is seen reading under the now tree that grew from their seed and Jean Luc returns to greet Bluey. If you're crying... Don't worry. I did too.  </p>
+            <a name="three"></a>
+            <h2>I'm not alone</h2>
+            <!--ADD IMAGE-->
+            <img src="https://helios-i.mashable.com/imagery/articles/07krRz0vCJ2IDZGOkr1ojZl/hero-image.fill.size_1248x702.v1669133399.jpg" alt="Bluey and Mom" width="650" height="346">
+               <p>Since Bluey caters to all viewers, it makes me feel like I'm not alone. Everyone can relate to a character. For me, it is their mother, Chilli that I can relate to. She constantly battles with her mental health but always tries to self-advocate for the best. She embodies that mother figure that can't always be perfect but is always there for her family.</p>   
+             </ol>  
+            </article>
+         </main>
+   </body>
          <footer>
-            <center><div><p style="border: 2px solid DodgerBlue;">&copy; 2023 abbiwan</p></div></center>
+            <p>&copy; 2023 Abigail Bonilla</p>
             </footer>
-            </body>
 </html>

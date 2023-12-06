@@ -1,4 +1,84 @@
 /* Write your CSS here! */
-/* body {
-    background-color: royalblue;
-} */
+@import url("https://fonts.googleapis.com/css2?family=Gluten:wght@700&display=swap");
+*
+{
+    margin-top: 8;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 8;
+    padding: 8;
+    box-sizing: border-box;
+    font-family: 'Gluten', sans-serif;
+
+}
+.funParagraph {
+  color: green;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(#1b0b38,#7597de);
+  /* background: linear-gradient(#2b1055,#7597de); */
+  text-align: center;
+  color: #fff;
+  text-shadow: black 1px 1px;
+}
+.container {
+    overflow: hidden;
+  }
+  
+  .infinite-scrolling {
+    background: url("https://ca-times.brightspotcdn.com/dims4/default/5005264/2147483647/strip/true/crop/8000x4500+0+0/resize/1200x675!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fc8%2Fc2%2F92cd9c0d439d96526231753159f9%2Fabti290h50-wagon-ride-image-07.jpg") repeat-x;
+    height: 645px;
+    width: 5760px; 
+    animation: slide 60s linear infinite;
+  }
+  
+  @keyframes slide {
+    0% {
+      transform: translate3d(0, 0, 0);
+    }
+    100% {
+      transform: translate3d(-1920px, 0, 0);
+    }
+  }
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+}
+#mainHeading{
+  color: red;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 2em;
+  text-transform: uppercase; 
+  text-align: center;
+  
+}
+header ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 14rem; */
+}
+header ul li {
+  list-style: none;
+  padding: 6px 15px;
+  color: #fff;
+}
+header ul li a:hover,
+header ul li a {
+  /* background: #fff; */
+    color: #2b1055;
+    border-radius: 100px;
+
+}
+footer {
+    text-align: center;
+}
